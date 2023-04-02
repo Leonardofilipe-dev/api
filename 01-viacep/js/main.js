@@ -2,15 +2,13 @@
 
 const limparFormulario = (endereco) => {
 
-  
   document.querySelector("#logradouro").value = ''
-  
-  document.querySelector("#bairro").value = ''
-  
-  document.querySelector("#cidade").value = ''
-  
-  document.querySelector("#estado").value = ''
 
+  document.querySelector("#bairro").value = ''
+
+  document.querySelector("#cidade").value = ''
+
+  document.querySelector("#estado").value = ''
 }
 
 const preencherFormulario = (endereco) => {
